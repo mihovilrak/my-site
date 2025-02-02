@@ -88,6 +88,14 @@ section {
   @apply transition-colors duration-300;
 }
 
+section[class*="bg-muted"] .bg-card {
+  @apply bg-background;
+}
+
+section:not([class*="bg-muted"]) .bg-card {
+  @apply bg-muted/50;
+}
+
 /* Card hover effects */
 .card {
   @apply transition-all duration-300 hover:shadow-lg;

@@ -1,0 +1,233 @@
+{
+  "navigation": {
+    "about": "About",
+    "professional": "Professional Background",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "qualifications": "Qualifications",
+    "expertise": "Areas of expertise",
+    "certificates": "Certificates and Courses",
+    "other": "Other",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Mihovil Rak",
+    "title": "Master of Geography",
+    "subtitle": "GIS & Software Engineer"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a Master of Geography with a focus on GIS and software development. With experience in both spatial analysis and programming, I bridge the gap between geographic information systems and modern web technologies."
+  },
+  "experience": {
+    "title": "Experience",
+    "current": {
+      "title": "R&D Engineer",
+      "company": "HIDROCIBALAE ltd.",
+      "period": "08.04.2024 - Present",
+      "achievements": [
+        "Creation and maintenance of internal Wiki (Bookstack, Docker)",
+        "Redesign and optimization of internal Python scripts to QGIS plugins to make them more user-friendly"
+      ],
+      "duties": [
+        "Automatization of internal workflows",
+        "Processing, analysis and QC of bathymetric data",
+        "Working on international projects",
+        "Maintenance of internal trainings",
+        "IT support"
+      ]
+    },
+    "previous": [
+      {
+        "title": "GIS Specialist",
+        "company": "PREHNIT ltd.",
+        "period": "21.02.2023 - 07.04.2024",
+        "achievements": [
+          "Redesign and optimization of internal PostgreSQL database",
+          "Automatization of working processes inside the GIS department (mostly with Python and FME)",
+          "Redesign of company's Web GIS service via GeoServer and PostgreSQL/PostGIS"
+        ],
+        "duties": [
+          "Creation, processing, analysis, QC, and visualization of spatial data using GIS tools",
+          "Field data collection using GNSS devices, drones, 360 cameras",
+          "Processing photogrammetric and LiDAR data for creating orthophotos, DEMs, DSMs, and 3D models",
+          "Design and management of relational databases",
+          "Project management and leading of teams of up to 10 people",
+          "GIS education maintenance"
+        ]
+      },
+      {
+        "title": "GIS technician",
+        "company": "PREHNIT ltd.",
+        "period": "01.09.2022 - 20.02.2023",
+        "duties": [
+          "Creation, processing, analysis, QC, and visualization of spatial data using GIS tools"
+        ]
+      },
+      {
+        "title": "GIS & Office Assistant",
+        "company": "GDi llc",
+        "period": "25.01.2022 - 31.08.2022",
+        "duties": [
+          "Geocoding, vectorization, data entry, etc., primarily in ArcGIS Pro",
+          "Surveying water infrastructure with GNSS devices and Field Maps"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "masters": {
+      "degree": "Master of Geography",
+      "university": "Faculty of Science - University of Zagreb",
+      "period": "2019 - 2022",
+      "specialization": "specialization in GIS"
+    },
+    "bachelors": {
+      "degree": "Bachelor of Geography",
+      "university": "Faculty of Science - University of Zagreb",
+      "period": "2016 - 2019"
+    },
+    "certificates": [
+      {
+        "degree": "Database Administration",
+        "university": "Algebra University",
+        "period": "One-Semester course"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "automation": {
+      "title": "Automation & ETL",
+      "items": [
+        "Python",
+        "FME",
+        "PL/pgSQL",
+        "Shell scripting",
+        "Batch scripting"
+      ]
+    },
+    "databases": {
+      "title": "Databases",
+      "items": [
+        "PostgreSQL",
+        "Microsoft SQL",
+        "MySQL",
+        "SQLite"
+      ]
+    },
+    "virtualization": {
+      "title": "Virtualization",
+      "items": [
+        "Docker",
+        "VMware",
+        "Oracle VirtualBox"
+      ]
+    },
+    "gis": {
+      "title": "GIS Tools",
+      "items": [
+        "ArcGIS products",
+        "QGIS",
+        "Global Mapper",
+        "GDAL",
+        "GeoServer",
+        "PostGIS"
+      ]
+    },
+    "webdev": {
+      "title": "Web Development",
+      "items": [
+        "HTML/CSS/JavaScript",
+        "TypeScript",
+        "React.js",
+        "Node.js",
+        "Git"
+      ]
+    },
+    "dataprocessing": {
+      "title": "Data Processing",
+      "items": [
+        "Agisoft Metashape",
+        "BeamworX Autoclean",
+        "Bentley iTwin",
+        "DJI Terra",
+        "LiDAR360",
+        "Sonarwiz"
+      ]
+    }
+  },
+  "expertise": {
+    "title": "Areas of Expertise",
+    "items": [
+      {
+        "title": "Spatial Data Management",
+        "description": "Expert in GIS tools including ArcMap, ArcGIS Pro, QGIS, Global Mapper, GDAL, GeoServer, Google Earth, and PostGIS. Skilled in spatial analysis, cartography, and geospatial data processing.",
+        "icon": "fa-map-marked-alt"
+      },
+      {
+        "title": "Process Automation",
+        "description": "Advanced automation using Python, FME, PL/pgSQL, Batch and Shell scripting. Experience in developing custom GIS tools and plugins for workflow optimization.",
+        "icon": "fa-robot"
+      },
+      {
+        "title": "Remote Sensing & Data Collection",
+        "description": "Extensive experience with drones (DJI Phantom 4, Matrice M300), GNSS devices, and 360 cameras. Expert in processing bathymetric, photogrammetric, and LiDAR data for high-quality spatial analysis.",
+        "icon": "fa-satellite"
+      },
+      {
+        "title": "Database Management",
+        "description": "Proficient in designing and managing enterprise-level relational databases including PostgreSQL, PostGIS, MySQL, MariaDB, Microsoft SQL, and SQLite. Experience in spatial database optimization and maintenance.",
+        "icon": "fa-database"
+      },
+      {
+        "title": "Web Development",
+        "description": "Full-stack development skills using HTML, CSS, JavaScript, TypeScript, and React. Experienced with Docker containerization and Git version control for efficient development workflows.",
+        "icon": "fa-code"
+      },
+      {
+        "title": "Project Leadership",
+        "description": "Proven track record in managing complex GIS projects and leading teams of up to 10 people. Experience in project planning, resource allocation, and stakeholder communication.",
+        "icon": "fa-tasks"
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Certificates and Courses",
+    "items": [
+      "ArcGIS Pro: Essential Workflow - GDi llc",
+      "Introduction to QGIS - Prehnit ltd",
+      "Presentation Skills - Ramiro ltd",
+      "CS50's Understanding Technology - edX"
+    ]
+  },
+  "other": {
+    "title": "Other",
+    "items": [
+      "Croatian C2, English B2, German A2",
+      "Driver's License B",
+      "EASA certificate for remote pilot A1/A3, A2"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again."
+  },
+  "projects": {
+    "title": "Projects",
+    "github": "View on GitHub",
+    "demo": "Live Demo",
+    "loading": "Loading projects..."
+  }
+}

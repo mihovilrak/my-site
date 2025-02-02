@@ -4,7 +4,7 @@ import { Resend } from 'resend';
 // Initialize the Resend SDK with your API key
 const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function POST(request: Request) {
+export const POST = async (request: Request) => {
   try {
     const { name, email, message } = await request.json();
 
