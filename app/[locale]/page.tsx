@@ -135,7 +135,7 @@ export default () => {
                 <span className="sr-only">LinkedIn Profile</span>
               </Button>
             </a>
-            <a href="mailto:contact@mihovilrak.com">
+            <a href="mailto:mihovil.rak@hotmail.com">
               <Button
                 variant="outline"
                 size="icon"
@@ -162,12 +162,11 @@ export default () => {
 
           {/* Current Experience */}
           <Card className="mb-8 p-8 hover:shadow-xl transition-all duration-300 backdrop-blur-sm border border-primary/10 dark:bg-gray-800/60 bg-gray-100/60">
-            <h3 className="text-2xl font-semibold mb-3 text-primary">{t("experience.current.title")}</h3>
             <p className="text-xl mb-2">{t("experience.current.company")}</p>
             <p className="text-sm text-muted-foreground mb-4">{t("experience.current.period")}</p>
 
             <div className="mb-6">
-              <h4 className="font-semibold mb-3 text-lg">Achievements</h4>
+              <h4 className="font-semibold mb-3 text-lg">{t("experience.achievements")}</h4>
               <ul className="list-disc pl-5 space-y-2">
                 {t.raw("experience.current.achievements").map((item: string, index: number) => (
                   <li key={index} className="text-muted-foreground flex items-center">
@@ -179,7 +178,7 @@ export default () => {
             </div>
 
             <div>
-              <h4 className="font-semibold mb-3 text-lg">Duties</h4>
+              <h4 className="font-semibold mb-3 text-lg">{t("experience.duties")}</h4>
               <ul className="list-disc pl-5 space-y-2">
                 {t.raw("experience.current.duties").map((item: string, index: number) => (
                   <li key={index} className="text-muted-foreground flex items-center">
@@ -203,7 +202,7 @@ export default () => {
 
               {exp.achievements && (
                 <div className="mb-6">
-                  <h4 className="font-semibold mb-3 text-lg">Achievements</h4>
+                  <h4 className="font-semibold mb-3 text-lg">{t("experience.achievements")}</h4>
                   <ul className="list-disc pl-5 space-y-2">
                     {exp.achievements.map((item: string, achievementIndex: number) => (
                       <li key={achievementIndex} className="text-muted-foreground flex items-center">
@@ -217,7 +216,7 @@ export default () => {
 
               {exp.duties && (
                 <div>
-                  <h4 className="font-semibold mb-3 text-lg">Duties</h4>
+                  <h4 className="font-semibold mb-3 text-lg">{t("experience.duties")}</h4>
                   <ul className="list-disc pl-5 space-y-2">
                     {exp.duties.map((item: string, dutyIndex: number) => (
                       <li key={dutyIndex} className="text-muted-foreground flex items-center">
@@ -478,7 +477,7 @@ export default () => {
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
                     <i className="fas fa-map-marker-alt text-primary text-xl"></i>
                   </div>
-                  <p className="text-muted-foreground">Zagreb, Croatia</p>
+                  <p className="text-muted-foreground">{t("contact.location")}</p>
                 </div>
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">

@@ -1,10 +1,10 @@
 {
   "navigation": {
     "about": "O meni",
-    "professional": "Profesionalna pozadina",
-    "experience": "Iskustvo",
+    "professional": "Iskustvo i obrazovanje",
+    "experience": "Radno iskustvo",
     "education": "Obrazovanje",
-    "skills": "Vještine",
+    "skills": "Tehničke vještine",
     "qualifications": "Kvalifikacije",
     "expertise": "Područja stručnosti",
     "certificates": "Certifikati i tečajevi",
@@ -14,26 +14,30 @@
   },
   "hero": {
     "name": "Mihovil Rak",
-    "title": "Magistar geografije",
-    "subtitle": "GIS i softverski inženjer"
+    "title": "Razvojni inženjer | GIS Specijalist",
+    "subtitle": ""
   },
   "about": {
     "title": "O meni",
-    "description": "Magistar sam geografije s fokusom na GIS i razvoj softvera. Iskusan sam u prostornoj analizi i programiranju, spajajući geografske informacijske sustave s modernim web tehnologijama."
+    "description": "Razvojni inženjer i magistar geografije s fokusom na GIS i razvoj aplikativnih rješenja. Iskusan sam u prostornim analizama i programiranju, spajajući geografske informacijske sustave s modernim web tehnologijama."
   },
   "experience": {
     "title": "Iskustvo",
+    "achievements": "Postignuća",
+    "duties": "Obveze",
     "current": {
-      "title": "Istraživač i razvojni inženjer",
-      "company": "HIDROCIBALAE d.o.o.",
-      "period": "08.04.2024 - sadašnjost",
+      "title": "Inženjer u istraživanju i razvoju",
+      "company": "Hidrocibalae d.o.o.",
+      "period": "08.04.2024 - ",
       "achievements": [
-        "Izrada i održavanje internog Wiki sustava (Bookstack, Docker)",
+        "Izrada i održavanje internog sustava za upravljanje lozinkama (Vaultwarden, Docker)",
+        "Izrada i održavanje internog Wiki sustava (Bookstack, Docker, Python, JavaScript)",
         "Redizajn i optimizacija internih Python skripti u QGIS dodatke radi bolje upotrebljivosti"
       ],
       "duties": [
+        "Administracija i održavanje internih sustava",
         "Automatizacija internih radnih procesa",
-        "Obrada, analiza i kontrola kvalitete batimetrijskih podataka",
+        "Obrada, analiza i kontrola batimetrijskih podataka dna mora",
         "Rad na međunarodnim projektima",
         "Održavanje internih edukacija",
         "IT podrška"
@@ -41,33 +45,33 @@
     },
     "previous": [
       {
-        "title": "GIS stručnjak",
-        "company": "PREHNIT d.o.o.",
+        "title": "GIS Specijalist",
+        "company": "Prehnit d.o.o.",
         "period": "21.02.2023 - 07.04.2024",
         "achievements": [
           "Redizajn i optimizacija interne PostgreSQL baze podataka",
-          "Automatizacija radnih procesa u GIS odjelu (uglavnom pomoću Pythona i FME-a)",
+          "Automatizacija radnih procesa u GIS odjelu (Python, FME, PL/pgSQL, Batch)",
           "Redizajn Web GIS sustava tvrtke putem GeoServera i PostgreSQL/PostGIS-a"
         ],
         "duties": [
-          "Stvaranje, obrada, analiza, kontrola kvalitete i vizualizacija prostornih podataka koristeći GIS alate",
+          "Izrada, obrada, analiza, kontrola i vizualizacija prostornih podataka koristeći GIS alate",
           "Prikupljanje podataka na terenu pomoću GNSS uređaja, dronova, 360 kamera",
-          "Obrada fotogrametrijskih i LiDAR podataka za izradu ortofoto snimaka, DEM-a, DSM-a i 3D modela",
+          "Obrada fotogrametrijskih i LiDAR podataka za izradu digitalnog ortofota, modela reljefa i 3D modela",
           "Dizajn i upravljanje relacijskim bazama podataka",
           "Vođenje projekata i timova do 10 ljudi",
           "Održavanje GIS edukacija"
         ]
       },
       {
-        "title": "GIS tehničar",
-        "company": "PREHNIT d.o.o.",
+        "title": "GIS Operater - studentski posao",
+        "company": "Prehnit d.o.o.",
         "period": "01.09.2022 - 20.02.2023",
         "duties": [
           "Izrada, obrada i analiza prostornih podataka koristeći GIS alate"
         ]
       },
       {
-        "title": "GIS i uredski asistent",
+        "title": "GIS i Office assisstant - studentski posao",
         "company": "GDi d.o.o.",
         "period": "25.01.2022 - 31.08.2022",
         "duties": [
@@ -83,7 +87,7 @@
       "degree": "Magistar geografije",
       "university": "Prirodoslovno-matematički fakultet - Sveučilište u Zagrebu",
       "period": "2019 - 2022",
-      "specialization": "Specijalizacija u GIS-u"
+      "specialization": "GIS smjer"
     },
     "bachelors": {
       "degree": "Prvostupnik geografije",
@@ -116,6 +120,7 @@
         "PostgreSQL",
         "Microsoft SQL",
         "MySQL",
+        "MariaDB",
         "SQLite"
       ]
     },
@@ -124,7 +129,8 @@
       "items": [
         "Docker",
         "VMware",
-        "Oracle VirtualBox"
+        "Oracle VirtualBox",
+        "Hyper-V"
       ]
     },
     "gis": {
@@ -143,9 +149,10 @@
       "items": [
         "HTML/CSS/JavaScript",
         "TypeScript",
-        "React.js",
         "Node.js",
-        "Git"
+        "React.js",
+        "Git",
+        "Flask"
       ]
     },
     "dataprocessing": {
@@ -165,7 +172,7 @@
     "items": [
       {
         "title": "Upravljanje prostornim podacima",
-        "description": "Stručnjak za GIS alate uključujući ArcMap, ArcGIS Pro, QGIS, Global Mapper, GDAL, GeoServer, Google Earth i PostGIS. Vješt u prostornoj analizi, kartografiji i obradi geoprostornih podataka.",
+        "description": "Stručnost za GIS alate uključujući ArcMap, ArcGIS Pro, QGIS, Global Mapper, GDAL, GeoServer, Google Earth i PostGIS. Vješt u prostornoj analizi, kartografiji i obradi geoprostornih podataka.",
         "icon": "fa-map-marked-alt"
       },
       {
@@ -214,6 +221,7 @@
   },
   "contact": {
     "title": "Kontakt",
+    "location": "Zagreb, Hrvatska",
     "form": {
       "name": "Ime",
       "email": "E-mail",
@@ -229,5 +237,17 @@
     "github": "Pogledaj na GitHubu",
     "demo": "Live demo",
     "loading": "Učitavanje projekata..."
+  },
+  "accessability": {
+    "title": "Opcije dostupnosti",
+    "options": {
+      "size": "Veličina fonta",
+      "spacing": "Razmak između slova",
+      "theme": "Tema",
+      "dark": "Tamna",
+      "light": "Svjetla",
+      "system": "Sistemske postavke",
+      "reset": "Povratak na zadano"
+    }
   }
 }

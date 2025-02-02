@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
+import { useTranslations } from 'next-intl';
 
 const DEFAULT_SETTINGS = {
   fontSize: 100,
@@ -10,6 +11,7 @@ const DEFAULT_SETTINGS = {
 };
 
 const AccessibilityControls = () => {
+  const t = useTranslations();
   const [isOpen, setIsOpen] = useState(false);
   const [fontSize, setFontSize] = useState(DEFAULT_SETTINGS.fontSize);
   const [letterSpacing, setLetterSpacing] = useState(DEFAULT_SETTINGS.letterSpacing);
@@ -56,11 +58,11 @@ const AccessibilityControls = () => {
 
       {isOpen && (
         <div className="absolute bottom-16 right-0 bg-background border rounded-lg shadow-lg p-4 w-64">
-          <h3 className="text-lg font-semibold mb-4 text-foreground">Accessibility Options</h3>
+          <h3 className="text-lg font-semibold mb-4 text-foreground">{t("accessability.title")}</h3>
           
           <div className="space-y-4">
             <div>
-              <label className="block text-sm mb-2 text-foreground">Font Size ({fontSize}%)</label>
+              <label className="block text-sm mb-2 text-foreground">{t("accessability.options.size")}</label>
               <input
                 type="range"
                 min="80"
@@ -72,7 +74,7 @@ const AccessibilityControls = () => {
             </div>
 
             <div>
-              <label className="block text-sm mb-2 text-foreground">Letter Spacing ({letterSpacing}px)</label>
+              <label className="block text-sm mb-2 text-foreground">{t("accessability.options.spacing")} ({letterSpacing}px)</label>
               <input
                 type="range"
                 min="0"
@@ -84,15 +86,15 @@ const AccessibilityControls = () => {
             </div>
 
             <div>
-              <label className="block text-sm mb-2 text-foreground">Theme</label>
+              <label className="block text-sm mb-2 text-foreground">{t("accessability.options.theme")}</label>
               <select
                 value={theme}
                 onChange={(e) => setTheme(e.target.value)}
                 className="w-full p-2 rounded border bg-background text-foreground"
               >
-                <option value="system">System</option>
-                <option value="light">Light</option>
-                <option value="dark">Dark</option>
+                <option value="system">{t("accessability.options.system")}</option>
+                <option value="light">{t("accessability.options.light")}</option>
+                <option value="dark">{t("accessability.options.dark")}</option>
               </select>
             </div>
 
@@ -100,7 +102,7 @@ const AccessibilityControls = () => {
               onClick={resetToDefaults}
               className="w-full mt-4 bg-secondary hover:bg-secondary/90 text-secondary-foreground px-4 py-2 rounded transition-colors"
             >
-              Reset to Defaults
+              {t("accessability.options.reset")}
             </button>
           </div>
 

@@ -1,10 +1,10 @@
 {
   "navigation": {
     "about": "About",
-    "professional": "Professional Background",
-    "experience": "Experience",
+    "professional": "Experience and Education",
+    "experience": "Work Experience",
     "education": "Education",
-    "skills": "Skills",
+    "skills": "Technical Skills",
     "qualifications": "Qualifications",
     "expertise": "Areas of expertise",
     "certificates": "Certificates and Courses",
@@ -14,24 +14,28 @@
   },
   "hero": {
     "name": "Mihovil Rak",
-    "title": "Master of Geography",
-    "subtitle": "GIS & Software Engineer"
+    "title": "Software Engineer | GIS Specialist",
+    "subtitle": ""
   },
   "about": {
     "title": "About Me",
-    "description": "I am a Master of Geography with a focus on GIS and software development. With experience in both spatial analysis and programming, I bridge the gap between geographic information systems and modern web technologies."
+    "description": "Software engineer and master of geography with a focus on GIS and application development. I am experienced in spatial analysis and programming, combining geographic information systems with modern web technologies."
   },
   "experience": {
     "title": "Experience",
+    "achievements": "Achievements",
+    "duties": "Duties",
     "current": {
-      "title": "R&D Engineer",
-      "company": "HIDROCIBALAE ltd.",
-      "period": "08.04.2024 - Present",
+      "title": "Research and Development Engineer",
+      "company": "Hidrocibalae ltd.",
+      "period": "08.04.2024 - ",
       "achievements": [
-        "Creation and maintenance of internal Wiki (Bookstack, Docker)",
+        "Creating and maintaining an internal password management system (Vaultwarden, Docker)",
+        "Creation and maintenance of internal Wiki (Bookstack, Docker, Python, JavaScript)",
         "Redesign and optimization of internal Python scripts to QGIS plugins to make them more user-friendly"
       ],
       "duties": [
+        "Administration and maintenance of internal systems",
         "Automatization of internal workflows",
         "Processing, analysis and QC of bathymetric data",
         "Working on international projects",
@@ -42,11 +46,11 @@
     "previous": [
       {
         "title": "GIS Specialist",
-        "company": "PREHNIT ltd.",
+        "company": "Prehnit ltd.",
         "period": "21.02.2023 - 07.04.2024",
         "achievements": [
           "Redesign and optimization of internal PostgreSQL database",
-          "Automatization of working processes inside the GIS department (mostly with Python and FME)",
+          "Automatization of working processes inside the GIS department (Python, FME, PL/pgSQL, Batch)",
           "Redesign of company's Web GIS service via GeoServer and PostgreSQL/PostGIS"
         ],
         "duties": [
@@ -59,15 +63,15 @@
         ]
       },
       {
-        "title": "GIS technician",
-        "company": "PREHNIT ltd.",
+        "title": "GIS technician - student internship",
+        "company": "Prehnit ltd.",
         "period": "01.09.2022 - 20.02.2023",
         "duties": [
           "Creation, processing, analysis, QC, and visualization of spatial data using GIS tools"
         ]
       },
       {
-        "title": "GIS & Office Assistant",
+        "title": "GIS & Office Assistant - student internship",
         "company": "GDi llc",
         "period": "25.01.2022 - 31.08.2022",
         "duties": [
@@ -116,6 +120,7 @@
         "PostgreSQL",
         "Microsoft SQL",
         "MySQL",
+        "MariaDB",
         "SQLite"
       ]
     },
@@ -124,7 +129,8 @@
       "items": [
         "Docker",
         "VMware",
-        "Oracle VirtualBox"
+        "Oracle VirtualBox",
+        "Hyper-V"
       ]
     },
     "gis": {
@@ -143,9 +149,10 @@
       "items": [
         "HTML/CSS/JavaScript",
         "TypeScript",
-        "React.js",
         "Node.js",
-        "Git"
+        "React.js",
+        "Git",
+        "Flask"
       ]
     },
     "dataprocessing": {
@@ -165,7 +172,7 @@
     "items": [
       {
         "title": "Spatial Data Management",
-        "description": "Expert in GIS tools including ArcMap, ArcGIS Pro, QGIS, Global Mapper, GDAL, GeoServer, Google Earth, and PostGIS. Skilled in spatial analysis, cartography, and geospatial data processing.",
+        "description": "Expertise in GIS tools including ArcMap, ArcGIS Pro, QGIS, Global Mapper, GDAL, GeoServer, Google Earth, and PostGIS. Skilled in spatial analysis, cartography, and geospatial data processing.",
         "icon": "fa-map-marked-alt"
       },
       {
@@ -214,6 +221,7 @@
   },
   "contact": {
     "title": "Contact",
+    "location": "Zagreb, Croatia",
     "form": {
       "name": "Name",
       "email": "Email",
@@ -229,5 +237,17 @@
     "github": "View on GitHub",
     "demo": "Live Demo",
     "loading": "Loading projects..."
+  },
+  "accessability": {
+    "title": "Accessability options",
+    "options": {
+      "size": "Font size",
+      "spacing": "Letter spacing",
+      "theme": "Theme",
+      "dark": "Dark",
+      "light": "Light",
+      "system": "System settings",
+      "reset": "Reset to default"
+    }
   }
 }
