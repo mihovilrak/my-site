@@ -5,10 +5,20 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Metadata } from 'next';
 
 export const generateMetadata = async ({ params }: { params: { locale: string } }): Promise<Metadata> => {
-  const locale = params.locale;
+  const messages = await import(`../../messages/${params.locale}.json`)
+    .then(module => module.default)
+    .catch(() => null);
+
   return {
-    title: 'Mihovil Rak - Portfolio',
-    description: 'Personal website and portfolio'
+    title: messages?.meta?.title || 'Mihovil Rak - Portfolio',
+    description: messages?.meta?.description || 'Personal website and portfolio',
+    alternates: {
+      languages: {
+        'en': '/en',
+        'hr': '/hr',
+        'de': '/de'
+      }
+    }
   };
 };
 
