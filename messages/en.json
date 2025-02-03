@@ -51,7 +51,7 @@
         "achievements": [
           "Redesign and optimization of internal PostgreSQL database",
           "Automatization of working processes inside the GIS department (Python, FME, PL/pgSQL, Batch)",
-          "Redesign of company's Web GIS service via GeoServer and PostgreSQL/PostGIS"
+          "Redesign of company&apos;s Web GIS service via GeoServer and PostgreSQL/PostGIS"
         ],
         "duties": [
           "Creation, processing, analysis, QC, and visualization of spatial data using GIS tools",
@@ -208,14 +208,14 @@
       "ArcGIS Pro: Essential Workflow - GDi llc",
       "Introduction to QGIS - Prehnit ltd",
       "Presentation Skills - Ramiro ltd",
-      "CS50's Understanding Technology - edX"
+      "CS50&apos;s Understanding Technology - edX"
     ]
   },
   "other": {
     "title": "Other",
     "items": [
       "Croatian C2, English B2, German A2",
-      "Driver's License B",
+      "Driver&apos;s License B",
       "EASA certificate for remote pilot A1/A3, A2"
     ]
   },
