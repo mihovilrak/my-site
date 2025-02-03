@@ -3,13 +3,14 @@ import { ThemeProvider } from "next-themes";
 import Navigation from "@/components/Navigation";
 import ScrollToTop from "@/components/ScrollToTop";
 
-const Layout = async ({
-  children,
-  params
-}: {
+type LayoutProps = {
   children: React.ReactNode;
-  params: { locale: string };
-}) => {
+  params: {
+    locale: string;
+  };
+};
+
+const Layout = async ({ children, params }: LayoutProps) => {
   const locale = params.locale;
   const messages = await import(`../../messages/${locale}.json`)
     .then(module => module.default)
