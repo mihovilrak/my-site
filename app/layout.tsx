@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "Personal website and portfolio of Mihovil Rak, a GIS Specialist and Software Developer based in Zagreb, Croatia.",
 }
 
-export default ({
+const RootLayout = ({
   children,
 }: {
   children: React.ReactNode;
@@ -32,3 +32,5 @@ export default ({
     </html>
   )
 }
+
+export default RootLayout;

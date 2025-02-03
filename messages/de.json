@@ -249,5 +249,10 @@
       "system": "Systemeinstellungen",
       "reset": "Zurück zur Standardeinstellung"
     }
-  }
+  },
+  "error": {
+    "error": "Fehler",
+    "message": "Etwas ist schiefgelaufen"
+  },
+  "not-found": "Seite nicht gefunden"
 }

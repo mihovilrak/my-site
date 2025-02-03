@@ -249,5 +249,10 @@
       "system": "System settings",
       "reset": "Reset to default"
     }
-  }
+  },
+  "error": {
+    "error": "Error",
+    "message": "Something went wrong"
+  },
+  "not-found": "Page not found"
 }

@@ -3,7 +3,7 @@ import { ThemeProvider } from "next-themes";
 import Navigation from "@/components/Navigation";
 import ScrollToTop from "@/components/ScrollToTop";
 
-export default async ({
+const Layout = async ({
   children,
   params
 }: {
@@ -38,3 +38,5 @@ export default async ({
       </div>
   );
 }
+
+export default Layout;

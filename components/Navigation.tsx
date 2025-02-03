@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-export default () => {
+const Navigation = () => {
   const t = useTranslations();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
@@ -129,3 +129,5 @@ export default () => {
     </nav>
   );
 }
+
+export default Navigation;

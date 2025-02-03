@@ -10,7 +10,7 @@ const languages = [
   { code: 'de', name: 'Deutsch', flag: '🇩🇪' }
 ];
 
-export default () => {
+const LanguageSwitcher = () => {
   const router = useRouter();
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
@@ -64,3 +64,5 @@ export default () => {
     </div>
   );
 }
+
+export default LanguageSwitcher;

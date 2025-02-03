@@ -22,7 +22,7 @@ interface GitHubRepo {
   fork: boolean
 }
 
-export default () => {
+const Page = () => {
   const t = useTranslations()
   const { theme } = useTheme()
   const [projects, setProjects] = useState<GitHubRepo[]>([])
@@ -562,3 +562,5 @@ export default () => {
     </div>
   )
 }
+
+export default Page;

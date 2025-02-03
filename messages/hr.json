@@ -249,5 +249,10 @@
       "system": "Sistemske postavke",
       "reset": "Povratak na zadano"
     }
-  }
+  },
+  "error": {
+    "error": "Pogreška",
+    "message": "Nešto je pošlo po zlu"
+  },
+  "not-found": "Stranica nije pronađena"
 }
