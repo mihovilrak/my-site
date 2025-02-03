@@ -1,0 +1,253 @@
+{
+  "navigation": {
+    "about": "O meni",
+    "professional": "Iskustvo i obrazovanje",
+    "experience": "Radno iskustvo",
+    "education": "Obrazovanje",
+    "skills": "Tehničke vještine",
+    "qualifications": "Kvalifikacije",
+    "expertise": "Područja stručnosti",
+    "certificates": "Certifikati i tečajevi",
+    "other": "Ostalo",
+    "projects": "Projekti",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "name": "Mihovil Rak",
+    "title": "Razvojni inženjer | GIS Specijalist",
+    "subtitle": ""
+  },
+  "about": {
+    "title": "O meni",
+    "description": "Razvojni inženjer i magistar geografije s fokusom na GIS i razvoj aplikativnih rješenja. Iskusan sam u prostornim analizama i programiranju, spajajući geografske informacijske sustave s modernim web tehnologijama."
+  },
+  "experience": {
+    "title": "Iskustvo",
+    "achievements": "Postignuća",
+    "duties": "Obveze",
+    "current": {
+      "title": "Inženjer u istraživanju i razvoju",
+      "company": "Hidrocibalae d.o.o.",
+      "period": "08.04.2024 - ",
+      "achievements": [
+        "Izrada i održavanje internog sustava za upravljanje lozinkama (Vaultwarden, Docker)",
+        "Izrada i održavanje internog Wiki sustava (Bookstack, Docker, Python, JavaScript)",
+        "Redizajn i optimizacija internih Python skripti u QGIS dodatke radi bolje upotrebljivosti"
+      ],
+      "duties": [
+        "Administracija i održavanje internih sustava",
+        "Automatizacija internih radnih procesa",
+        "Obrada, analiza i kontrola batimetrijskih podataka dna mora",
+        "Rad na međunarodnim projektima",
+        "Održavanje internih edukacija",
+        "IT podrška"
+      ]
+    },
+    "previous": [
+      {
+        "title": "GIS Specijalist",
+        "company": "Prehnit d.o.o.",
+        "period": "21.02.2023 - 07.04.2024",
+        "achievements": [
+          "Redizajn i optimizacija interne PostgreSQL baze podataka",
+          "Automatizacija radnih procesa u GIS odjelu (Python, FME, PL/pgSQL, Batch)",
+          "Redizajn Web GIS sustava tvrtke putem GeoServera i PostgreSQL/PostGIS-a"
+        ],
+        "duties": [
+          "Izrada, obrada, analiza, kontrola i vizualizacija prostornih podataka koristeći GIS alate",
+          "Prikupljanje podataka na terenu pomoću GNSS uređaja, dronova, 360 kamera",
+          "Obrada fotogrametrijskih i LiDAR podataka za izradu digitalnog ortofota, modela reljefa i 3D modela",
+          "Dizajn i upravljanje relacijskim bazama podataka",
+          "Vođenje projekata i timova do 10 ljudi",
+          "Održavanje GIS edukacija"
+        ]
+      },
+      {
+        "title": "GIS Operater - studentski posao",
+        "company": "Prehnit d.o.o.",
+        "period": "01.09.2022 - 20.02.2023",
+        "duties": [
+          "Izrada, obrada i analiza prostornih podataka koristeći GIS alate"
+        ]
+      },
+      {
+        "title": "GIS i Office assisstant - studentski posao",
+        "company": "GDi d.o.o.",
+        "period": "25.01.2022 - 31.08.2022",
+        "duties": [
+          "Geokodiranje, vektorizacija, unos podataka, primarno u ArcGIS Pro",
+          "Terensko istraživanje vodne infrastrukture pomoću GNSS uređaja i Field Maps-a"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Obrazovanje",
+    "masters": {
+      "degree": "Magistar geografije",
+      "university": "Prirodoslovno-matematički fakultet - Sveučilište u Zagrebu",
+      "period": "2019 - 2022",
+      "specialization": "GIS smjer"
+    },
+    "bachelors": {
+      "degree": "Prvostupnik geografije",
+      "university": "Prirodoslovno-matematički fakultet - Sveučilište u Zagrebu",
+      "period": "2016 - 2019"
+    },
+    "certificates": [
+      {
+        "degree": "Administracija baza podataka",
+        "university": "Veleučilište Algebra",
+        "period": "Jednosemestralni tečaj"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Tehničke vještine",
+    "automation": {
+      "title": "Automatizacija i ETL",
+      "items": [
+        "Python",
+        "FME",
+        "PL/pgSQL",
+        "Shell scripting",
+        "Batch scripting"
+      ]
+    },
+    "databases": {
+      "title": "Baze podataka",
+      "items": [
+        "PostgreSQL",
+        "Microsoft SQL",
+        "MySQL",
+        "MariaDB",
+        "SQLite"
+      ]
+    },
+    "virtualization": {
+      "title": "Virtualizacija",
+      "items": [
+        "Docker",
+        "VMware",
+        "Oracle VirtualBox",
+        "Hyper-V"
+      ]
+    },
+    "gis": {
+      "title": "GIS alati",
+      "items": [
+        "ArcGIS proizvodi",
+        "QGIS",
+        "Global Mapper",
+        "GDAL",
+        "GeoServer",
+        "PostGIS"
+      ]
+    },
+    "webdev": {
+      "title": "Web razvoj",
+      "items": [
+        "HTML/CSS/JavaScript",
+        "TypeScript",
+        "Node.js",
+        "React.js",
+        "Git",
+        "Flask"
+      ]
+    },
+    "dataprocessing": {
+      "title": "Obrada podataka",
+      "items": [
+        "Agisoft Metashape",
+        "BeamworX Autoclean",
+        "Bentley iTwin",
+        "DJI Terra",
+        "LiDAR360",
+        "Sonarwiz"
+      ]
+    }
+  },
+  "expertise": {
+    "title": "Područja stručnosti",
+    "items": [
+      {
+        "title": "Upravljanje prostornim podacima",
+        "description": "Stručnost za GIS alate uključujući ArcMap, ArcGIS Pro, QGIS, Global Mapper, GDAL, GeoServer, Google Earth i PostGIS. Vješt u prostornoj analizi, kartografiji i obradi geoprostornih podataka.",
+        "icon": "fa-map-marked-alt"
+      },
+      {
+        "title": "Automatizacija procesa",
+        "description": "Napredna automatizacija korištenjem Pythona, FME-a, PL/pgSQL-a, Batch i Shell skriptiranja. Iskustvo u razvoju prilagođenih GIS alata i dodataka za optimizaciju radnih procesa.",
+        "icon": "fa-robot"
+      },
+      {
+        "title": "Daljinska detekcija i prikupljanje podataka",
+        "description": "Bogato iskustvo s dronovima (DJI Phantom 4, Matrice M300), GNSS uređajima i 360 kamerama. Stručnjak za obradu batimetrijskih, fotogrametrijskih i LiDAR podataka za visokokvalitetnu prostornu analizu.",
+        "icon": "fa-satellite"
+      },
+      {
+        "title": "Upravljanje bazama podataka",
+        "description": "Stručnost u dizajniranju i upravljanju relacijskim bazama podataka na razini poduzeća, uključujući PostgreSQL, PostGIS, MySQL, MariaDB, Microsoft SQL i SQLite. Iskustvo u optimizaciji i održavanju prostornih baza podataka.",
+        "icon": "fa-database"
+      },
+      {
+        "title": "Web razvoj",
+        "description": "Full-stack razvojne vještine korištenjem HTML-a, CSS-a, JavaScripta, TypeScripta i Reacta. Iskustvo s Docker kontejnerizacijom i Git kontrolom verzija za učinkovite razvojne procese.",
+        "icon": "fa-code"
+      },
+      {
+        "title": "Vođenje projekata",
+        "description": "Dokazani uspjeh u upravljanju složenim GIS projektima i vođenju timova do 10 ljudi. Iskustvo u planiranju projekata, raspodjeli resursa i komunikaciji s dionicima.",
+        "icon": "fa-tasks"
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Certifikati i tečajevi",
+    "items": [
+      "ArcGIS Pro: Osnovni radni tijek - GDi d.o.o.",
+      "Uvod u QGIS - Prehnit d.o.o.",
+      "Vještine prezentacije - Ramiro d.o.o.",
+      "CS50's Understanding Technology - edX"
+    ]
+  },
+  "other": {
+    "title": "Ostalo",
+    "items": [
+      "Hrvatski C2, Engleski B2, Njemački A2",
+      "Vozačka dozvola B kategorije",
+      "EASA certifikat za daljinskog pilota A1/A3, A2"
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "location": "Zagreb, Hrvatska",
+    "form": {
+      "name": "Ime",
+      "email": "E-mail",
+      "message": "Poruka",
+      "send": "Pošalji poruku",
+      "sending": "Slanje..."
+    },
+    "success": "Poruka je uspješno poslana!",
+    "error": "Slanje poruke nije uspjelo. Molimo pokušajte ponovo."
+  },
+  "projects": {
+    "title": "Projekti",
+    "github": "Pogledaj na GitHubu",
+    "demo": "Live demo",
+    "loading": "Učitavanje projekata..."
+  },
+  "accessability": {
+    "title": "Opcije dostupnosti",
+    "options": {
+      "size": "Veličina fonta",
+      "spacing": "Razmak između slova",
+      "theme": "Tema",
+      "dark": "Tamna",
+      "light": "Svjetla",
+      "system": "Sistemske postavke",
+      "reset": "Povratak na zadano"
+    }
+  }
+}

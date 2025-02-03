@@ -1,0 +1,253 @@
+{
+  "navigation": {
+    "about": "Über mich",
+    "professional": "Erfahrung und Ausbildung",
+    "experience": "Berufserfahrung",
+    "education": "Bildung",
+    "skills": "Technische Fähigkeiten",
+    "qualifications": "Qualifikationen",
+    "expertise": "Fachgebiete",
+    "certificates": "Zertifikate und Kurse",
+    "other": "Sonstiges",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "name": "Mihovil Rak",
+    "title": "Entwicklungsingenieur | GIS-Spezialist",
+    "subtitle": ""
+  },
+  "about": {
+    "title": "Über mich",
+    "description": "Entwicklungsingenieur und Master der Geographie mit den Schwerpunkten GIS und Anwendungslösungsentwicklung. Ich verfüge über Erfahrung in räumlicher Analyse und Programmierung und kombiniere geografische Informationssysteme mit modernen Webtechnologien."
+  },
+  "experience": {
+    "title": "Erfahrung",
+    "achievements": "Erfolge",
+    "duties": "Aufgaben",
+    "current": {
+      "title": "Forschungs- und Entwicklungsingenieur",
+      "company": "Hidrocibalae ltd.",
+      "period": "08.04.2024 - ",
+      "achievements": [
+        "Erstellen und Pflegen eines internen Passwort-Management-Systems (Vaultwarden, Docker)",
+        "Erstellung und Wartung eines internen Wikis (Bookstack, Docker, Python, JavaScript)",
+        "Neugestaltung und Optimierung interner Python-Skripte zu QGIS-Plugins, um sie benutzerfreundlicher zu machen"
+      ],
+      "duties": [
+        "Administration und Wartung interner Systeme",
+        "Automatisierung interner Arbeitsabläufe",
+        "Verarbeitung, Analyse und Kontrolle bathymetrischer Daten des Meeresbodens",
+        "Arbeit an internationalen Projekten",
+        "Pflege interner Schulungen",
+        "IT-Support"
+      ]
+    },
+    "previous": [
+      {
+        "title": "GIS-Spezialist",
+        "company": "Prehnit ltd.",
+        "period": "21.02.2023 - 07.04.2024",
+        "achievements": [
+          "Neugestaltung und Optimierung der internen PostgreSQL-Datenbank",
+          "Automatisierung von Arbeitsprozessen innerhalb der GIS-Abteilung (Python, FME, PL/pgSQL, Batch)",
+          "Neugestaltung des firmeneigenen Web-GIS-Dienstes über GeoServer und PostgreSQL/PostGIS"
+        ],
+        "duties": [
+          "Erstellung, Verarbeitung, Analyse, Qualitätssicherung und Visualisierung von räumlichen Daten mit GIS-Tools",
+          "Datenerfassung im Gelände mit GNSS-Geräten, Drohnen, 360-Grad-Kameras",
+          "Verarbeitung von photogrammetrischen und LiDAR-Daten zur Erstellung von Orthofotos, DEMs, DSMs und 3D-Modellen",
+          "Design und Verwaltung relationaler Datenbanken",
+          "Projektmanagement und Leitung von Teams mit bis zu 10 Personen",
+          "Durchführung von GIS-Schulungen"
+        ]
+      },
+      {
+        "title": "GIS-Techniker - Schülerpraktikum",
+        "company": "Prehnit ltd.",
+        "period": "01.09.2022 - 20.02.2023",
+        "duties": [
+          "Erstellung, Verarbeitung und Analyse räumlicher Daten mit GIS-Tools"
+        ]
+      },
+      {
+        "title": "GIS & Büroassistent - Schülerpraktikum",
+        "company": "GDi ltd.",
+        "period": "25.01.2022 - 31.08.2022",
+        "duties": [
+          "Geokodierung, Vektorisierung, Dateneingabe, primär in ArcGIS Pro",
+          "Vermessung der Wasserinfrastruktur mit GNSS-Geräten und Field Maps"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "Bildung",
+    "masters": {
+      "degree": "Magister geografie",
+      "university": "Naturwissenschaftliche Fakultät - Universität Zagreb",
+      "period": "2019 - 2022",
+      "specialization": "Spezialisierung in GIS"
+    },
+    "bachelors": {
+      "degree": "Bachelor der Geographie",
+      "university": "Naturwissenschaftliche Fakultät - Universität Zagreb",
+      "period": "2016 - 2019"
+    },
+    "certificates": [
+      {
+        "degree": "Datenbankverwaltung",
+        "university": "Algebra Universität College",
+        "period": "Einsemestriger Kurs"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technische Fähigkeiten",
+    "automation": {
+      "title": "Automatisierung & ETL",
+      "items": [
+        "Python",
+        "FME",
+        "PL/pgSQL",
+        "Shell-Skripting",
+        "Batch-Skripting"
+      ]
+    },
+    "databases": {
+      "title": "Datenbanken",
+      "items": [
+        "PostgreSQL",
+        "Microsoft SQL",
+        "MySQL",
+        "MariaDB",
+        "SQLite"
+      ]
+    },
+    "virtualization": {
+      "title": "Virtualisierung",
+      "items": [
+        "Docker",
+        "VMware",
+        "Oracle VirtualBox",
+        "Hyper-V"
+      ]
+    },
+    "gis": {
+      "title": "GIS-Tools",
+      "items": [
+        "ArcGIS-Produkte",
+        "QGIS",
+        "Global Mapper",
+        "GDAL",
+        "GeoServer",
+        "PostGIS"
+      ]
+    },
+    "webdev": {
+      "title": "Webentwicklung",
+      "items": [
+        "HTML/CSS/JavaScript",
+        "TypeScript",
+        "Node.js",
+        "React.js",
+        "Git",
+        "Flask"
+      ]
+    },
+    "dataprocessing": {
+      "title": "Datenverarbeitung",
+      "items": [
+        "Agisoft Metashape",
+        "BeamworX Autoclean",
+        "Bentley iTwin",
+        "DJI Terra",
+        "LiDAR360",
+        "Sonarwiz"
+      ]
+    }
+  },
+  "expertise": {
+    "title": "Fachgebiete",
+    "items": [
+      {
+        "title": "Verwaltung von Geodaten",
+        "description": "Professionalität für GIS-Tools wie ArcMap, ArcGIS Pro, QGIS, Global Mapper, GDAL, GeoServer, Google Earth und PostGIS. Erfahren in räumlicher Analyse, Kartographie und Verarbeitung von Geodaten.",
+        "icon": "fa-map-marked-alt"
+      },
+      {
+        "title": "Prozessautomatisierung",
+        "description": "Fortgeschrittene Automatisierung mit Python, FME, PL/pgSQL, Batch- und Shell-Scripting. Erfahrung in der Entwicklung angepasster GIS-Tools und Plugins zur Workflow-Optimierung.",
+        "icon": "fa-robot"
+      },
+      {
+        "title": "Fernerkundung & Datenerfassung",
+        "description": "Umfangreiche Erfahrung mit Drohnen (DJI Phantom 4, Matrice M300), GNSS-Geräten und 360-Grad-Kameras. Experte in der Verarbeitung von bathymetrischen, photogrammetrischen und LiDAR-Daten für hochwertige räumliche Analysen.",
+        "icon": "fa-satellite"
+      },
+      {
+        "title": "Datenbankverwaltung",
+        "description": "Kompetent in Design und Verwaltung von Enterprise-Level relationalen Datenbanken wie PostgreSQL, PostGIS, MySQL, MariaDB, Microsoft SQL und SQLite. Erfahrung in Optimierung und Wartung räumlicher Datenbanken.",
+        "icon": "fa-database"
+      },
+      {
+        "title": "Webentwicklung",
+        "description": "Full-Stack-Entwicklungskenntnisse in HTML, CSS, JavaScript, TypeScript und React. Erfahrung mit Docker-Containerisierung und Git-Versionskontrolle für effiziente Entwicklungsabläufe.",
+        "icon": "fa-code"
+      },
+      {
+        "title": "Projektleitung",
+        "description": "Nachgewiesene Erfolge im Management komplexer GIS-Projekte und in der Führung von Teams bis zu 10 Personen. Erfahrung in Projektplanung, Ressourcenallokation und Stakeholder-Kommunikation.",
+        "icon": "fa-tasks"
+      }
+    ]
+  },
+  "certificates": {
+    "title": "Zertifikate und Kurse",
+    "items": [
+      "ArcGIS Pro: Essential Workflow - GDi ltd.",
+      "Einführung in QGIS - Prehnit ltd.",
+      "Präsentationstechniken - Ramiro ltd.",
+      "CS50's Understanding Technology - edX"
+    ]
+  },
+  "other": {
+    "title": "Sonstiges",
+    "items": [
+      "Kroatisch C2, Englisch B2, Deutsch A2",
+      "Führerschein B",
+      "EASA-Zertifikat für Fernpilot A1/A3, A2"
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "location": "Zagreb, Kroatien",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "send": "Nachricht senden",
+      "sending": "Wird gesendet..."
+    },
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Fehler beim Senden der Nachricht. Bitte versuchen Sie es erneut."
+  },
+  "projects": {
+    "title": "Projekte",
+    "github": "Auf GitHub ansehen",
+    "demo": "Live-Demo",
+    "loading": "Projekte werden geladen..."
+  },
+  "accessability": {
+    "title": "Eingabehilfen",
+    "options": {
+      "size": "Schriftgröße",
+      "spacing": "Buchstabenabstand",
+      "theme": "Thema",
+      "dark": "Dunkel",
+      "light": "Beleuchtung",
+      "system": "Systemeinstellungen",
+      "reset": "Zurück zur Standardeinstellung"
+    }
+  }
+}
