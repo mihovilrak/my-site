@@ -1,4 +1,4 @@
-import { NextIntlClientProvider, useMessages } from 'next-intl';
+import { NextIntlClientProvider } from 'next-intl';
 import { ThemeProvider } from "next-themes";
 import Navigation from "@/components/Navigation";
 import ScrollToTop from "@/components/ScrollToTop";
