@@ -1,10 +1,7 @@
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
 import "./globals.css"
-<<<<<<< HEAD
-=======
 import { cn } from "@/lib/utils"
->>>>>>> temp
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -13,16 +10,6 @@ export const metadata: Metadata = {
   description: "Personal website and portfolio of Mihovil Rak, a GIS Specialist and Software Developer based in Zagreb, Croatia.",
 }
 
-<<<<<<< HEAD
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
-  return (
-    <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>{children}</body>
-=======
 export default ({
   children,
 }: {
@@ -42,7 +29,6 @@ export default ({
       <body className={cn("min-h-screen bg-background font-sans antialiased", inter.className)}>
         {children}
       </body>
->>>>>>> temp
     </html>
   )
 }
