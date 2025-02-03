@@ -13,7 +13,11 @@ export default async function LocaleLayoutWrapper({
 }) {
   const messages = await getMessages(params.locale);
 
-  return <LocaleLayout children={children} locale={params.locale} messages={messages} />;
+  return (
+    <LocaleLayout locale={params.locale} messages={messages}>
+      {children}
+    </LocaleLayout>
+  );
 }
 
 // Separate component that is NOT async
