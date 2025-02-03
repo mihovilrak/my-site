@@ -8,7 +8,6 @@ import { Textarea } from "@/components/ui/textarea"
 import Image from "next/image"
 import { Github, Linkedin, Mail, Send } from "lucide-react"
 import { useTranslations } from "next-intl"
-import { useTheme } from "next-themes"
 import Navigation from "@/components/Navigation"
 import AccessibilityControls from "@/components/AccessibilityControls"
 import ScrollToTop from "@/components/ScrollToTop"
@@ -20,6 +19,27 @@ interface GitHubRepo {
   html_url: string
   homepage: string | null
   fork: boolean
+}
+
+interface Experience {
+  title: string
+  company: string
+  period: string
+  achievements?: string[]
+  duties?: string[]
+}
+
+interface Certificate {
+  degree: string
+  university: string
+  period?: string
+}
+
+interface ExpertiseItem {
+  icon: string
+  title: string
+  description: string
+  items?: string[]
 }
 
 const Page = () => {
@@ -190,7 +210,7 @@ const Page = () => {
           </Card>
 
           {/* Previous Experience */}
-          {t.raw("experience.previous").map((exp: any, index: number) => (
+          {t.raw("experience.previous").map((exp: Experience, index: number) => (
             <Card
               key={index}
               className="mb-8 p-8 hover:shadow-xl transition-all duration-300 backdrop-blur-sm border border-primary/10 dark:bg-gray-800/60 bg-gray-100/60"
@@ -245,7 +265,7 @@ const Page = () => {
               <p className="text-lg mb-2">{t("education.bachelors.university")}</p>
               <p className="text-sm text-muted-foreground mb-4">{t("education.bachelors.period")}</p>
             </Card>
-            {t.raw("education.certificates").map((cert: any, index: number) => (
+            {t.raw("education.certificates").map((cert: Certificate, index: number) => (
               <Card
                 key={index}
                 className="p-8 hover:shadow-xl transition-all duration-300 backdrop-blur-sm border border-primary/10 dark:bg-gray-800/60 bg-gray-100/60"
@@ -358,7 +378,7 @@ const Page = () => {
         <section id="expertise" className="mb-16">
           <h2 className="text-3xl font-bold mb-8 text-primary">{t("expertise.title")}</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {t.raw("expertise.items").map((item: any, index: number) => (
+            {t.raw("expertise.items").map((item: ExpertiseItem, index: number) => (
               <Card
                 key={index}
                 className="p-8 hover:shadow-xl transition-all duration-300 backdrop-blur-sm border border-primary/10 dark:bg-gray-800/60 bg-gray-100/60"
