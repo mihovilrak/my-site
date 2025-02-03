@@ -6,19 +6,20 @@ import { getMessages } from "@/lib/getMessages";
 
 interface LayoutProps {
   children: React.ReactNode;
-  params: {
+  params: Promise<{
     locale: string;
-  };
+  }>;
 }
 
 const LocaleLayoutWrapper = async ({
   children,
   params,
 }: LayoutProps) => {
-  const messages = await getMessages(params.locale);
+  const resolvedParams = await params;
+  const messages = await getMessages(resolvedParams.locale);
 
   return (
-    <LocaleLayout locale={params.locale} messages={messages}>
+    <LocaleLayout locale={resolvedParams.locale} messages={messages}>
       {children}
     </LocaleLayout>
   );
