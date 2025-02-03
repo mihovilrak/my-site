@@ -2,18 +2,17 @@ import { NextIntlClientProvider } from 'next-intl';
 import { ThemeProvider } from "next-themes";
 import Navigation from "@/components/Navigation";
 import ScrollToTop from "@/components/ScrollToTop";
+import { getMessages } from "@/lib/getMessages";
 
-export default async function LocaleLayout({
+const LocaleLayout = ({
   children,
   params
 }: {
   children: React.ReactNode;
   params: { locale: string };
-}) {
-  const locale = params.locale;
-  const messages = await import(`../../messages/${locale}.json`)
-    .then(module => module.default)
-    .catch(() => null);
+}) => {
+  const { locale } = params;
+  const messages = getMessages(locale); // Fetch messages synchronously
 
   if (!messages) return null;
 
@@ -29,9 +28,7 @@ export default async function LocaleLayout({
           >
             <div className="min-h-screen flex flex-col">
               <Navigation />
-              <main className="flex-grow">
-                {children}
-              </main>
+              <main className="flex-grow">{children}</main>
             </div>
             <ScrollToTop />
           </ThemeProvider>
@@ -40,3 +37,5 @@ export default async function LocaleLayout({
     </html>
   );
 }
+
+export default LocaleLayout;
