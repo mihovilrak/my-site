@@ -1,4 +1,4 @@
-export async function getMessages(locale: string) {
+export const getMessages = async (locale: string) => {
   try {
     const messages = await import(`@/messages/${locale}.json`).then(
       (module) => module.default

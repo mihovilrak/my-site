@@ -4,13 +4,17 @@ import Navigation from "@/components/Navigation";
 import ScrollToTop from "@/components/ScrollToTop";
 import { getMessages } from "@/lib/getMessages";
 
-export default async function LocaleLayoutWrapper({
+interface LayoutProps {
+  children: React.ReactNode;
+  params: {
+    locale: string;
+  };
+}
+
+const LocaleLayoutWrapper = async ({
   children,
   params,
-}: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
+}: LayoutProps) => {
   const messages = await getMessages(params.locale);
 
   return (
@@ -21,7 +25,7 @@ export default async function LocaleLayoutWrapper({
 }
 
 // Separate component that is NOT async
-function LocaleLayout({
+const LocaleLayout = ({
   children,
   locale,
   messages,
@@ -29,7 +33,7 @@ function LocaleLayout({
   children: React.ReactNode;
   locale: string;
   messages: Record<string, string> | null;
-}) {
+}) => {
   if (!messages) return <div>Missing translations for {locale}</div>;
 
   return (
@@ -53,3 +57,5 @@ function LocaleLayout({
     </html>
   );
 }
+
+export default LocaleLayoutWrapper;
