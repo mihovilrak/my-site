@@ -1,20 +1,32 @@
-import { NextIntlClientProvider } from 'next-intl';
+import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "next-themes";
 import Navigation from "@/components/Navigation";
 import ScrollToTop from "@/components/ScrollToTop";
 import { getMessages } from "@/lib/getMessages";
 
-const LocaleLayout = ({
+export default async function LocaleLayoutWrapper({
   children,
-  params
+  params,
 }: {
   children: React.ReactNode;
   params: { locale: string };
-}) => {
-  const { locale } = params;
-  const messages = getMessages(locale); // Fetch messages synchronously
+}) {
+  const messages = await getMessages(params.locale);
 
-  if (!messages) return null;
+  return <LocaleLayout children={children} locale={params.locale} messages={messages} />;
+}
+
+// Separate component that is NOT async
+function LocaleLayout({
+  children,
+  locale,
+  messages,
+}: {
+  children: React.ReactNode;
+  locale: string;
+  messages: Record<string, string> | null;
+}) {
+  if (!messages) return <div>Missing translations for {locale}</div>;
 
   return (
     <html lang={locale}>
@@ -37,5 +49,3 @@ const LocaleLayout = ({
     </html>
   );
 }
-
-export default LocaleLayout;
