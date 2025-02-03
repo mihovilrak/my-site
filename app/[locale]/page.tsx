@@ -24,7 +24,6 @@ interface GitHubRepo {
 
 const Page = () => {
   const t = useTranslations()
-  const { theme } = useTheme()
   const [projects, setProjects] = useState<GitHubRepo[]>([])
   const [formData, setFormData] = useState({
     name: "",
